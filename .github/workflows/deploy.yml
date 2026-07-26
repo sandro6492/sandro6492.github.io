@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - 1234
 
 jobs:
   build-and-deploy:
