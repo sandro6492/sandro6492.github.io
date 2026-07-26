@@ -28,4 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: ./out
+          publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
